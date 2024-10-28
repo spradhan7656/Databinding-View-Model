@@ -19,6 +19,16 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
+        <EditText
+            android:id="@+id/userInput"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="250dp"
+            android:text="@={mainView.quetsLivedata}"
+            />
         <TextView
             android:id="@+id/text"
             android:layout_width="wrap_content"
